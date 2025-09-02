@@ -51,27 +51,27 @@
 # print(susan.airtime)
 # print(susan.data,"MB")
 
-class Student:
-    def __init__(self, name, course, level, state_of_origin, university):
-        self.name = name
-        self.course = course
-        self.level = level
-        self.state_of_origin = state_of_origin
-        self.cgpa = 0.0
-        self.university = university
-bola = Student("Bola Ojo", "Animal Science", "200", "Osun State","Federal University of Technology Akure")
-sola = Student("Sola Ige", "Nursing", "400", "Kogi State","Federal University of Technology Akure")
-# futa = Student("Federal University of Technology Akure")
-print(bola.name)             
-print(bola.course)        
-print(bola.state_of_origin)  
-student1 = Student("Bola Ojo", "Animal Science", "200", "Osun State","Federal University of Agriculture,Abeokuta")
-student2 = Student("Sola Ige", "Nursing", "400", "Kogi State","Federal University of Technology Akure")
+# class Student:
+#     def __init__(self, name, course, level, state_of_origin, university):
+#         self.name = name
+#         self.course = course
+#         self.level = level
+#         self.state_of_origin = state_of_origin
+#         self.cgpa = 0.0
+#         self.university = university
+# bola = Student("Bola Ojo", "Animal Science", "200", "Osun State","Federal University of Technology Akure")
+# sola = Student("Sola Ige", "Nursing", "400", "Kogi State","Federal University of Technology Akure")
+# # futa = Student("Federal University of Technology Akure")
+# print(bola.name)             
+# print(bola.course)        
+# print(bola.state_of_origin)  
+# student1 = Student("Bola Ojo", "Animal Science", "200", "Osun State","Federal University of Agriculture,Abeokuta")
+# student2 = Student("Sola Ige", "Nursing", "400", "Kogi State","Federal University of Technology Akure")
 
-print(student1.name)  
-print(student2.name)
+# print(student1.name)  
+# print(student2.name)
 
-# print(Student.university)     
-print(student1.university)   
-print(student2.university)
+# # print(Student.university)     
+# print(student1.university)   
+# print(student2.university)
 
